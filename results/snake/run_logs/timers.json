@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1617522565",
+        "python_version": "3.6.13 |Anaconda, Inc.| (default, Mar 16 2021, 11:37:27) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "D:\\Users\\sxmt\\anaconda3\\envs\\ml-agents\\Scripts\\mlagents-learn config/snakeAgent_config.yaml --run-id=snake --force",
+        "mlagents_version": "0.25.0",
+        "mlagents_envs_version": "0.25.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.0",
+        "numpy_version": "1.19.2",
+        "end_time_seconds": "1617522629"
+    },
+    "total": 64.43887409999999,
+    "count": 1,
+    "self": 0.010898899999986611,
+    "children": {
+        "run_training.setup": {
+            "total": 0.5491265000000001,
+            "count": 1,
+            "self": 0.5491265000000001
+        },
+        "TrainerController.start_learning": {
+            "total": 63.8788487,
+            "count": 1,
+            "self": 0.00046780000000268274,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 63.877910799999995,
+                    "count": 1,
+                    "self": 63.877910799999995
+                },
+                "TrainerController._save_models": {
+                    "total": 0.00047010000000113905,
+                    "count": 1,
+                    "self": 0.00047010000000113905
+                }
+            }
+        }
+    }
+}
